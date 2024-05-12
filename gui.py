@@ -29,6 +29,8 @@ def open_image():
 
 root = ThemedTk(theme="arc")
 root.geometry('600x300')
+root.resizable(False, False)
+root.title("Background Remover - Made by Trpsky")
 
 button = tk.Button(root, text="Open Image", command=open_image)
 button.pack()
